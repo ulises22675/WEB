@@ -204,3 +204,20 @@
     }
 
     a:focus{ outline:3px solid rgba(17,18,20,0.08); outline-offset:3px; }
+
+.rayados-imagenes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.rayados-imagenes img {
+  width: 30%;
+  max-width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
